@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WordSteal! — a word game about taking what's theirs</title>
+<meta name="description" content="WordSteal! is an iOS word-card game where you build words from cards — and steal your opponents' words by extending them. Play solo against AI, pass-and-play, or online via Game Center.">
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #0D0F1A;
+    color: #E8DFC8;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 56px 24px 80px; }
+  header { text-align: center; padding-bottom: 8px; }
+  h1 { color: #C9A84C; font-size: 2.6rem; margin: 0 0 0.1em; letter-spacing: -0.5px; }
+  .tagline { color: #9a927e; font-size: 1.15rem; margin: 0 0 2em; }
+  h2 { color: #E8DFC8; font-size: 1.25rem; margin-top: 2.5em; border-top: 1px solid #23263a; padding-top: 1.5em; }
+  a { color: #C9A84C; }
+  ul { padding-left: 1.25em; }
+  li { margin: 0.4em 0; }
+  .steal {
+    background: #151829;
+    border: 1px solid #23263a;
+    border-radius: 12px;
+    padding: 18px 22px;
+    text-align: center;
+    font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 1.15rem;
+    letter-spacing: 2px;
+    color: #E8DFC8;
+    margin: 2em 0;
+  }
+  .steal em { color: #C9A84C; font-style: normal; }
+  .faq dt { color: #C9A84C; font-weight: 600; margin-top: 1.2em; }
+  .faq dd { margin: 0.3em 0 0; }
+  footer { margin-top: 3.5em; border-top: 1px solid #23263a; padding-top: 1.5em; color: #9a927e; font-size: 0.9rem; text-align: center; }
+  footer a { margin: 0 0.5em; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>WordSteal!</h1>
+    <p class="tagline">Build words from cards. Then take everyone else's.</p>
+  </header>
+
+  <p>WordSteal! is a word game for iPhone and iPad. You build words from the cards in your hand — but any word sitting on the table is fair game. Add a letter, rearrange the rest, and it's yours.</p>
+
+  <div class="steal"><em>CARE</em> + <em>G</em> &nbsp;→&nbsp; <em>GRACE</em></div>
+
+  <p>Words don't stay safe. A word you built is temporary and expires before your next turn unless somebody steals it first — so the table keeps moving and nothing is ever really settled.</p>
+
+  <h2>How you can play</h2>
+  <ul>
+    <li><strong>Solo vs. AI</strong> — four opponents, from the Novice Scribe to the Grand Thief.</li>
+    <li><strong>Pass and play</strong> — hand the device around a table.</li>
+    <li><strong>Online</strong> — turn-based matches for up to six seats through Game Center, with leaderboards and achievements. QuickFire limits make it a live game; longer limits let it run over days.</li>
+    <li><strong>Hands-free voice control</strong> — say "steal cane, make crane" instead of tapping.</li>
+    <li><strong>Tutorial</strong> — a guided walkthrough that teaches stealing before you meet anyone who's good at it.</li>
+  </ul>
+
+  <h2>Details</h2>
+  <ul>
+    <li>Requires iOS 16.1 or later.</li>
+    <li>Plays fully offline (word definitions and online matches need a connection).</li>
+    <li>Word validity comes from a commercially licensed NASPA word list.</li>
+    <li>No accounts, no ads, no tracking, no analytics.</li>
+  </ul>
+
+  <h2 id="support">Support</h2>
+  <p>Something broken, confusing, or just a word you think should have been valid? Email <a href="mailto:nbwring@gmail.com">nbwring@gmail.com</a> and include your device model and iOS version. Replies usually come within a few days.</p>
+
+  <dl class="faq">
+    <dt>Why did my word disappear?</dt>
+    <dd>Words on the table are temporary — one expires just before its owner's next turn unless somebody steals it. Scoring happens when the word is played, so an expired word still counted.</dd>
+
+    <dt>Why was my steal rejected?</dt>
+    <dd>A steal has to use every letter of the target word plus at least one new letter. Reusing only part of the word, or making a word with the same letters rearranged and nothing added, isn't a steal.</dd>
+
+    <dt>The microphone pulses but nothing is transcribed.</dt>
+    <dd>Voice control needs Siri &amp; Dictation enabled on the device — check Settings → Siri, Settings → General → Keyboard → Dictation, and Screen Time → Content &amp; Privacy Restrictions → Allowed Apps. Microphone permission alone isn't enough. Voice also needs a real device; it doesn't work in the Simulator.</dd>
+
+    <dt>My online opponent hasn't moved.</dt>
+    <dd>Turn-based matches wait as long as the host's turn limit allows. Pull to refresh the board to re-check with Game Center. If a player leaves the match, play continues without them — the game ends only if fewer than two remain.</dd>
+
+    <dt>Where are my leaderboards and achievements?</dt>
+    <dd>They're reported through Game Center, so you need to be signed in. Pass-and-play games are excluded on purpose. The rest of the game works fine signed out.</dd>
+
+    <dt>Can I get my data deleted?</dt>
+    <dd>There's nothing to delete on our side — the app stores everything on your device, so uninstalling removes it. Game Center data is managed by Apple through your Apple ID settings.</dd>
+  </dl>
+
+  <footer>
+    <a href="privacy.html">Privacy Policy</a> ·
+    <a href="mailto:nbwring@gmail.com">Contact</a><br>
+    © 2026 Neal Wring
+  </footer>
+</main>
+</body>
+</html>
