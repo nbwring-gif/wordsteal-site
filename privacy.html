@@ -25,10 +25,10 @@
 <body>
 <main>
   <h1>Privacy Policy for WordSteal!</h1>
-  <p class="updated">Last updated: July 13, 2026</p>
+  <p class="updated">Last updated: August 21, 2026</p>
 
   <h2>Overview</h2>
-  <p>WordSteal! ("the app") is developed by Neal Wring. This app itself does not collect, store, or transmit personal data. However, WordSteal! uses Apple's Game Center service for leaderboards and achievements, which involves some data sharing as described below.</p>
+  <p>WordSteal! ("the app") is developed by Neal Wring. This app itself does not collect or store personal data, and there are no analytics or advertising services in it. Three optional features do involve data leaving your device, each described in its own section below: Apple's Game Center (leaderboards, achievements, and online matches), word definition lookups, and voice control.</p>
 
   <h2>Information We Collect Directly</h2>
   <p>WordSteal! itself does not collect any personal information. The app does not:</p>
@@ -49,7 +49,17 @@
   </ul>
 
   <h2>Word Definitions</h2>
-  <p>When you tap a word to see its meaning, that single word is sent to a free third-party dictionary service (<a href="https://dictionaryapi.dev">dictionaryapi.dev</a>) to retrieve a definition. Only the word itself is sent — no personal information. This feature needs an internet connection; the rest of the game works offline. Definitions are cached in memory for the current session only. The dictionary service is governed by its own terms, not by WordSteal!.</p>
+  <p>When you tap a word to see its meaning, that single word is sent to a free third-party dictionary service (<a href="https://dictionaryapi.dev">dictionaryapi.dev</a>) to retrieve a definition. Only the word itself is sent — no personal information, though as with any internet request the service necessarily sees your device's IP address. This feature needs an internet connection; the rest of the game works offline. Definitions are cached in memory for the current session only. The dictionary service is governed by its own terms, not by WordSteal!.</p>
+
+  <h2>Voice Control</h2>
+  <p>Voice control is optional and switched off by default. It is a per-session choice, not a saved preference: WordSteal! turns it off again every time the app launches, so it is never left running in games where you didn't ask for it.</p>
+  <p>When you do turn it on:</p>
+  <ul>
+    <li>WordSteal! uses the microphone and Apple's Speech framework to interpret spoken moves and commands</li>
+    <li>Recognition runs <strong>on your device</strong> wherever your device supports it. Where it doesn't, the audio is processed by Apple's speech recognition service, governed by <a href="https://www.apple.com/legal/privacy">Apple's Privacy Policy</a> rather than by WordSteal!</li>
+    <li>WordSteal! does not itself record, store, or transmit audio, and keeps no audio once a command has been interpreted</li>
+    <li>Microphone and speech recognition access are requested through the standard iOS permission prompts, and you can withdraw either at any time in Settings</li>
+  </ul>
 
   <h2>Data Stored on Your Device</h2>
   <p>Local game settings and progress are stored on your device. This data never leaves your device (separate from anything synced via Game Center) and is deleted if you uninstall the app.</p>
