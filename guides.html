@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guides — WordSteal!</title>
+<meta name="description" content="Step-by-step guides to WordSteal!: playing offline and pass-and-play, starting an online match, joining a match you've been invited to, and setting up voice control.">
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #0D0F1A;
+    color: #E8DFC8;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; }
+  header { text-align: center; padding-bottom: 8px; }
+  h1 { color: #C9A84C; font-size: 2.2rem; margin: 0 0 0.1em; letter-spacing: -0.5px; }
+  .tagline { color: #9a927e; font-size: 1.05rem; margin: 0 0 2em; }
+  h2 { color: #C9A84C; font-size: 1.5rem; margin-top: 2.5em; border-top: 1px solid #23263a; padding-top: 1.5em; }
+  h3 { color: #E8DFC8; font-size: 1.1rem; margin-top: 1.8em; }
+  a { color: #C9A84C; }
+  ul { padding-left: 1.25em; }
+  li { margin: 0.4em 0; }
+  .toc { background: #151829; border: 1px solid #23263a; border-radius: 12px; padding: 18px 22px; margin: 2em 0; }
+  .toc h2 { border: 0; margin: 0 0 0.6em; padding: 0; font-size: 1rem; color: #9a927e; text-transform: uppercase; letter-spacing: 1px; }
+  .toc ul { margin: 0; }
+  .steal {
+    background: #151829;
+    border: 1px solid #23263a;
+    border-radius: 12px;
+    padding: 16px 20px;
+    text-align: center;
+    font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 1.05rem;
+    letter-spacing: 2px;
+    margin: 1.6em 0;
+  }
+  .steal em { color: #C9A84C; font-style: normal; }
+  .note { background: #151829; border-left: 3px solid #C9A84C; border-radius: 0 8px 8px 0; padding: 12px 18px; margin: 1.6em 0; }
+  .say { font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace; color: #C9A84C; }
+  footer { margin-top: 3.5em; border-top: 1px solid #23263a; padding-top: 1.5em; color: #9a927e; font-size: 0.9rem; text-align: center; }
+  footer a { margin: 0 0.5em; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Guides</h1>
+    <p class="tagline">Step-by-step help for everything in WordSteal!</p>
+  </header>
+
+  <p>These same guides are in the app, under <strong>Guides</strong> on the main menu. If you'd rather learn by doing, <strong>How to Play</strong> on the main menu is an interactive tutorial that teaches stealing hands-on.</p>
+
+  <div class="toc">
+    <h2>On this page</h2>
+    <ul>
+      <li><a href="#offline">Playing offline</a> — solo, pass-and-play, and how the game works</li>
+      <li><a href="#online">Starting an online match</a> — inviting friends, with or without AI</li>
+      <li><a href="#joining">Joining a match</a> — you've been invited</li>
+      <li><a href="#voice">Voice control</a> — setup and every command</li>
+    </ul>
+  </div>
+
+  <h2 id="offline">Playing offline</h2>
+
+  <p>Everything here works with no internet connection: on your own against AI opponents, or passing one device around a table.</p>
+
+  <h3>Starting a game</h3>
+  <ul>
+    <li>From the main menu, tap <strong>Play</strong>.</li>
+    <li><strong>Player 1 is always you</strong>, and always human. Tap the name field to change it.</li>
+    <li>For each of the other five slots, flip the toggle on to bring that seat into the game, then choose <strong>Human</strong> or <strong>AI</strong>.</li>
+    <li>An AI seat gets a second dropdown for its level: <strong>Easy</strong>, <strong>Medium</strong>, <strong>Tricky</strong> or <strong>Expert</strong>.</li>
+    <li>Tap <strong>Start Game</strong>.</li>
+  </ul>
+  <p>You can play with as few as two seats and as many as six, in any mix of humans and AI.</p>
+
+  <h3>Pass and Play</h3>
+  <p>If you set up <strong>two or more human seats</strong>, a <strong>Pass and Play</strong> switch appears.</p>
+  <ul>
+    <li><strong>On</strong> — each player's hand is hidden between turns. The device shows a handover page saying who's next, and the board stays covered until they tap to begin. This is what you want when the device is going round a table.</li>
+    <li><strong>Off</strong> — hands are never hidden.</li>
+  </ul>
+  <p>With only one human seat there's nobody to hide from, so the switch doesn't appear at all.</p>
+
+  <h3>The other two options</h3>
+  <p><strong>Turn Time Limit</strong> — off, 30, 60 or 90 seconds. A player who runs out of time passes automatically. It's a per-game choice rather than a saved setting, because it changes how a particular game feels.</p>
+  <p><strong>Who goes first</strong> — Player 1, a random human, or a random seat of any kind.</p>
+
+  <h3>How the game is played</h3>
+  <p>You hold <strong>seven letter cards</strong>. The deck has 108: 52 red letters, 52 black letters, and four <strong>Thief</strong> wild cards.</p>
+  <p>On your turn you can do one of these:</p>
+  <ul>
+    <li><strong>Build</strong> a word from your hand. It goes on the table in front of you and scores its letter values.</li>
+    <li><strong>Steal</strong> any word on the table — including your own — by turning it into a different word.</li>
+    <li><strong>Build and steal</strong> in the same turn.</li>
+    <li><strong>Exchange</strong> your whole hand for seven fresh cards. Available only while cards remain to draw, and it scores nothing.</li>
+    <li><strong>Pass</strong>, doing nothing.</li>
+  </ul>
+  <p>After a build or a steal you draw back up to seven cards.</p>
+
+  <h3>What counts as a steal</h3>
+  <p>This is the rule that makes the game, and it's stricter than it first looks:</p>
+  <ul>
+    <li><strong>Every letter</strong> of the word you're stealing must be used.</li>
+    <li>You must <strong>add at least one letter</strong> from your own hand.</li>
+    <li>The letters can be <strong>rearranged</strong> freely.</li>
+    <li>The new word must <strong>genuinely mean something different</strong>.</li>
+  </ul>
+
+  <div class="steal"><em>CARE</em> + <em>G</em> → <em>GRACE</em> + <em>H</em> → <em>CHARGE</em></div>
+
+  <p>But CARE to CARES is <strong>not</strong> a steal — adding a plural, changing a tense, or tacking on a prefix doesn't change what the word means, and the game will refuse it.</p>
+
+  <h3>Words expire</h3>
+  <p>A word on the table is only yours until your next turn comes round. If nobody has stolen it by then, it <strong>expires</strong> — it leaves the table and pays you a bonus of one point per card in it.</p>
+  <p>That's the tension in the game. A word left sitting is a word an opponent can take, but a word nobody takes still pays. Expiring is a reward, not a penalty.</p>
+
+  <h3>The Thief</h3>
+  <p>Thief cards are wild. Play one into a word and declare <strong>which letter and which colour</strong> it becomes. It has no point value of its own, but it reaches words you could never otherwise spell. Stealing a word containing a Thief is worth an extra 3 points.</p>
+
+  <h3>Scoring and bonuses</h3>
+  <p>Each letter carries a point value shown on the card. On top of that:</p>
+  <ul>
+    <li><strong>First word of the game</strong> — doubled, or quadrupled if it's five or more letters and all one colour</li>
+    <li><strong>All one colour</strong> — a built word of four or more cards in a single colour doubles; so does a steal that leaves the word all one colour</li>
+    <li><strong>Colour flood</strong> — adding four or more cards of the same colour in a steal doubles it</li>
+    <li><strong>Chain steal</strong> — stealing a word that has already been stolen adds 3. Look for the gold badge</li>
+    <li><strong>Thief steal</strong> — stealing a word containing a Thief adds 3</li>
+    <li><strong>Emptying your hand</strong> — doubles your whole turn</li>
+    <li><strong>RUSTLER</strong> — making the word RUSTLER using no Thief cards is worth an instant <strong>+50</strong></li>
+  </ul>
+
+  <h3>How a game ends</h3>
+  <p>When the draw pile runs out, the game moves into its <strong>end phase</strong>. From that point the minimum word length rises from two letters to three, and exchanging is no longer available.</p>
+  <p>The game finishes when a player plays out their last card, or when every player passes in succession. Whoever empties their hand collects an <strong>end-game bonus</strong>: the total point value of everyone else's remaining cards, plus one point per card they hold.</p>
+  <p>Scores never go below zero, and a tie is a shared victory.</p>
+
+  <h3>Hints</h3>
+  <p>If you're the <strong>only human in the game</strong>, a <strong>Hint</strong> button appears on the board and in the word composer. Ask once for a nudge, again for more, and again to be told the word outright.</p>
+  <p>Hints deliberately don't appear when more than one human is playing — nobody should get an oracle the others can't see. That applies to pass-and-play too.</p>
+
+  <h3>Pausing and saving</h3>
+  <p>Tap the menu icon during a game for <strong>Save &amp; Quit</strong>, which stores the game so you can pick it up later from <strong>Resume Local</strong> on the main menu, or <strong>Quit Without Saving</strong>.</p>
+
+  <h2 id="online">Starting an online match</h2>
+
+  <p>Online play uses Apple's Game Center, so matches carry on when you close the app and everyone gets a notification when it's their turn.</p>
+
+  <h3>Before you start</h3>
+  <p>You need to be <strong>signed in to Game Center</strong>. The main menu footer shows your player name when you are, and "Game Center not signed in" when you aren't. The <strong>Online</strong> card stays dimmed until you sign in — do that in the device Settings app under <strong>Game Center</strong>.</p>
+
+  <h3>Choosing how you want to play</h3>
+  <p>Tap <strong>Online</strong> and pick one of two modes.</p>
+  <ul>
+    <li><strong>QuickFire</strong> — everyone plays together, right now, with <strong>60 seconds or 2 minutes</strong> a turn. Everyone needs to be in the app while you play: a turn this short can run out on someone who has put their phone down, and a closed app can't take its turn.</li>
+    <li><strong>Relaxed Play</strong> — turns over hours or days, with the app closed in between. Game Center's own default, 10 minutes, 1 hour, 6 hours, 1 day, 3 days or 1 week.</li>
+  </ul>
+  <p>Whichever you choose applies to <strong>everyone</strong> in the match. Your choice is remembered for next time.</p>
+
+  <h3>Choosing who plays</h3>
+  <p>A match seats <strong>2 to 6 players</strong> in total.</p>
+  <ul>
+    <li>Set the number of <strong>humans</strong>, including yourself. You always fill one human seat, so inviting three friends makes four humans.</li>
+    <li>Set the number of <strong>AI players</strong> and their level.</li>
+    <li>At least <strong>two humans</strong> are always required, so the AI count can never exceed the total minus two.</li>
+  </ul>
+  <p>AI seats are <strong>intermingled</strong> between the human seats rather than bunched at the end, and everyone can see which seats are AI from the start. The footer of the sheet spells out exactly what you're about to create.</p>
+
+  <h3>If somebody leaves</h3>
+  <p><strong>Fill Vacated Seats with AI</strong> decides what happens when a player quits.</p>
+  <ul>
+    <li><strong>On</strong> — an AI of the level you choose takes over that seat and plays on, so the match continues for everyone else.</li>
+    <li><strong>Off</strong> — the match ends for everyone, with the standings frozen where they stand.</li>
+  </ul>
+  <div class="note">
+    <p>An explicit forfeit always vacates a seat. At <strong>QuickFire</strong> lengths, simply <strong>running out of time does not</strong> — a short turn can expire because somebody glanced away, and that costs them the turn, never their seat. At longer limits a missed turn does count.</p>
+  </div>
+
+  <h3>Sending the invitations</h3>
+  <p>Tap <strong>Invite</strong>. Game Center's own matchmaking screen opens, where you can choose friends, invite people nearby, or let Game Center find opponents. Once everyone is invited the match is created and the first turn begins. The rules, scoring and stealing are identical to an offline game.</p>
+
+  <h3>While the match is running</h3>
+  <ul>
+    <li><strong>Only the player whose turn it is can act.</strong> Tapping a word on the table out of turn looks up its definition instead.</li>
+    <li><strong>Resume Online</strong> appears on the main menu whenever matches are waiting on your turn, and says how many.</li>
+    <li>The <strong>Pause</strong> menu shows this match's pace and what a walkout does.</li>
+    <li>If a match ever seems stuck, the Pause menu offers <strong>Resync</strong>.</li>
+  </ul>
+
+  <h3>Leaving a match</h3>
+  <p><strong>Forfeit Match</strong> in the Pause menu ends your participation, and the confirmation tells you exactly what will happen in this match. This is final: <strong>you cannot rejoin a match after leaving it</strong>, and a player who leaves cannot win it.</p>
+
+  <h2 id="joining">Joining a match</h2>
+
+  <p>Someone has invited you to play. Here's how to get in.</p>
+
+  <h3>Make sure you're signed in</h3>
+  <p>Online play needs <strong>Game Center</strong>. The main menu footer shows your player name when you're signed in. If it says "Game Center not signed in", open the device Settings app, tap <strong>Game Center</strong>, and sign in with your Apple Account.</p>
+
+  <h3>Accepting the invitation</h3>
+  <p>An invitation usually arrives as a <strong>notification</strong> from Game Center — tapping it opens WordSteal! straight into the match. If you missed it:</p>
+  <ul>
+    <li>Tap <strong>Online</strong> on the main menu.</li>
+    <li>Choose <strong>Join a match</strong> rather than one of the two modes.</li>
+    <li>Tap <strong>See Invitations</strong>.</li>
+    <li>Pick the invitation you want and accept it.</li>
+  </ul>
+  <p><strong>There's nothing to configure.</strong> The host chose the pace, the number of players, and what happens if somebody leaves. You inherit all of it — and you can look those choices up in the <strong>Pause</strong> menu once the match opens.</p>
+
+  <h3>Taking your turn</h3>
+  <ul>
+    <li>You'll get a <strong>notification</strong> when it's your turn.</li>
+    <li><strong>Resume Online</strong> on the main menu says how many matches are waiting on you.</li>
+    <li>Out of turn, tapping a word looks up its definition rather than selecting it.</li>
+  </ul>
+  <p>If it's a <strong>QuickFire</strong> match, everyone needs to be in the app together. Your <strong>first turn in a short match is never timed</strong>, so there's no rush the moment you accept.</p>
+
+  <h3>What you might see when you arrive</h3>
+  <ul>
+    <li><strong>"While You Were Away"</strong> — what happened to your words since your last turn: any that expired and paid out, and any that opponents stole. Reachable any time from the status pill at the top of the board.</li>
+    <li><strong>A handover notice</strong> — if a player left and an AI took their seat, you'll be told, along with anything the stand-in already played.</li>
+    <li><strong>A finished match</strong> — if the game ended while you were away, you'll go straight to the final standings.</li>
+  </ul>
+
+  <h3>If something looks stuck</h3>
+  <p>A match waiting on someone who has gone looks exactly like one waiting on someone slow, so the app can't always tell. The <strong>Pause</strong> menu has a <strong>Resync</strong> button that re-checks with Game Center and, if a turn went astray, sends it again.</p>
+
+  <h2 id="voice">Voice control</h2>
+
+  <p>You can play WordSteal! by speaking — moves, menus and everything in between. It's entirely optional and switched off by default.</p>
+
+  <h3>What you need first</h3>
+  <p><strong>A real device.</strong> Voice control does not work in the iOS Simulator, which has no usable microphone.</p>
+  <p><strong>Siri and Dictation switched on.</strong> Apple's speech recogniser refuses to start otherwise, and three separate settings can block it:</p>
+  <ul>
+    <li>Settings → <strong>Apple Intelligence &amp; Siri</strong></li>
+    <li>Settings → <strong>General</strong> → <strong>Keyboard</strong> → <strong>Enable Dictation</strong></li>
+    <li>Settings → <strong>Screen Time</strong> → <strong>Content &amp; Privacy Restrictions</strong> → <strong>Allowed Apps</strong> → <strong>Siri &amp; Dictation</strong></li>
+  </ul>
+  <div class="note">
+    <p>That last one overrides the other two. If the microphone pulses but nothing you say is picked up, check all three before assuming something is broken — granting microphone permission alone is not enough.</p>
+  </div>
+
+  <h3>Turning it on</h3>
+  <p>Open <strong>Settings</strong> from the main menu, find the <strong>Voice Control</strong> section, and switch on <strong>Hands-Free Voice</strong>. You can also switch it on from the New Game screen as you set a game up. The first time, iOS asks permission for the microphone and for speech recognition; both are needed.</p>
+  <p><strong>Voice control turns itself off every time you launch the app.</strong> That's deliberate — it's a per-session choice rather than a saved preference, so the microphone is never left listening in a game where nobody wanted it.</p>
+
+  <h3>The wake word</h3>
+  <p>With <strong>Require Wake Word</strong> on, the app only acts on a phrase beginning with <span class="say">"Steal"</span> — say "Steal, pass" rather than just "pass". This stops ordinary table talk being taken as commands, and it's on by default. Confirmations and dialogs never need the wake word either way.</p>
+
+  <h3>What you can say</h3>
+  <p>A <strong>?</strong> button beside the microphone opens a cheat-sheet for whatever screen you're on. You can also just ask: <span class="say">"What can I say?"</span></p>
+
+  <p><strong>On the main menu:</strong> <span class="say">"New game"</span>, <span class="say">"Resume"</span>, <span class="say">"Play online"</span>, <span class="say">"How to play"</span>, <span class="say">"Stats"</span>, <span class="say">"Settings"</span>, <span class="say">"Leaderboards"</span>, <span class="say">"Achievements"</span>.</p>
+
+  <p><strong>Setting a game up:</strong></p>
+  <ul>
+    <li><span class="say">"Change Player 1 to Neal"</span> — rename a seat. "Set", "rename" and "call" all work, and the seat number can lead or follow: "the second player is Sam"</li>
+    <li><span class="say">"Add Player 3 as AI easy"</span> — enable an AI seat at a level</li>
+    <li><span class="say">"Set Player 2 to human"</span> · <span class="say">"Remove Player 4"</span></li>
+    <li><span class="say">"Pass and play off"</span></li>
+    <li><span class="say">"Random human goes first"</span> — also "Player 1 goes first", "random any"</li>
+    <li><span class="say">"Turn time limit 60 seconds"</span> — or "timer off"</li>
+    <li><span class="say">"Start game"</span></li>
+  </ul>
+
+  <p><strong>During your turn:</strong></p>
+  <ul>
+    <li><span class="say">"Build"</span> or <span class="say">"Steal"</span> — open the word composer ("form" also works)</li>
+    <li><span class="say">"Exchange"</span> — swap your whole hand, then "yes" to confirm</li>
+    <li><span class="say">"Pass"</span> — then "yes" to confirm</li>
+    <li><span class="say">"Shuffle"</span> · <span class="say">"Sort"</span> or <span class="say">"A to Z"</span> — re-rack your hand</li>
+    <li><span class="say">"Hint"</span> — say it again for more. Only in a game with exactly one human</li>
+    <li><span class="say">"Menu"</span> · <span class="say">"Letters left"</span></li>
+  </ul>
+
+  <p><strong>Making a move.</strong> The composer understands whole words rather than spelled-out letters, because speech recognition handles words far more reliably than individual letters.</p>
+  <ul>
+    <li><span class="say">"Steal cane, make crane"</span> — a complete steal in one breath</li>
+    <li><span class="say">"Steal cane"</span> — pick the target first, then <span class="say">"make crane"</span></li>
+    <li><span class="say">"Build musk"</span> — build a word, including as part of a steal-and-build turn</li>
+    <li><span class="say">"Add R"</span> — add single letters to whichever zone you're filling</li>
+    <li><span class="say">"Move letter 3 back to hand"</span> — or "return the R to my hand"</li>
+    <li><span class="say">"Return all"</span> · <span class="say">"Change"</span> · <span class="say">"Confirm"</span> · <span class="say">"Clear"</span> · <span class="say">"Cancel"</span></li>
+  </ul>
+  <p>If a word comes out slightly wrong, the app tries near-misses against the dictionary and the board before giving up, so small mishearings usually still land.</p>
+
+  <p><strong>Dialogs and confirmations</strong> (no wake word needed): <span class="say">"Continue"</span> to dismiss the turn score page, <span class="say">"Ready"</span> or <span class="say">"Start my turn"</span> at a pass-and-play handover, <span class="say">"Yes"</span> / <span class="say">"No"</span>.</p>
+
+  <p><strong>Paused and after the game:</strong> <span class="say">"Resume"</span>, <span class="say">"Save and quit"</span>, <span class="say">"Quit"</span>, <span class="say">"Forfeit"</span> (online only), <span class="say">"Play again"</span>, <span class="say">"Main menu"</span>.</p>
+
+  <h3>Privacy</h3>
+  <p>Speech is recognised <strong>on your device</strong> wherever the device supports it. Where it doesn't, audio is processed by Apple's speech recognition service under Apple's privacy policy. WordSteal! never records, stores or transmits audio itself, and keeps none once a command has been understood. See the <a href="privacy.html">privacy policy</a> for the full picture.</p>
+
+  <footer>
+    <a href="index.html">Home</a> ·
+    <a href="index.html#support">Support</a> ·
+    <a href="privacy.html">Privacy Policy</a> ·
+    <a href="mailto:nbwring@gmail.com">Contact</a><br>
+    © 2026 Neal Wring
+  </footer>
+</main>
+</body>
+</html>
