@@ -4,7 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>WordSteal! — a word game about taking what's theirs</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="favicon.png">
 <meta name="description" content="WordSteal! is an iOS word-card game where you build words from cards — and steal your opponents' words by extending them. Play solo against AI, pass-and-play, or online via Game Center.">
+<meta property="og:image" content="https://nbwring-gif.github.io/wordsteal-site/icon.png">
+<meta property="og:image:alt" content="WordSteal! app icon">
 <style>
   :root { color-scheme: dark; }
   * { box-sizing: border-box; }
@@ -38,6 +42,12 @@
   .steal em { color: #C9A84C; font-style: normal; }
   .faq dt { color: #C9A84C; font-weight: 600; margin-top: 1.2em; }
   .faq dd { margin: 0.3em 0 0; }
+  .app-icon {
+    width: 112px; height: 112px;
+    border-radius: 24px;
+    display: block; margin: 0 auto 0.6em;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.45);
+  }
   footer { margin-top: 3.5em; border-top: 1px solid #23263a; padding-top: 1.5em; color: #9a927e; font-size: 0.9rem; text-align: center; }
   footer a { margin: 0 0.5em; }
 </style>
@@ -45,6 +55,7 @@
 <body>
 <main>
   <header>
+    <img class="app-icon" src="icon.png" width="112" height="112" alt="WordSteal! app icon" fetchpriority="high">
     <h1>WordSteal!</h1>
     <p class="tagline">Build words from cards. Then take everyone else's.</p>
   </header>
