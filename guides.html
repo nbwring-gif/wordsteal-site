@@ -91,7 +91,7 @@
   <p>If you set up <strong>two or more human seats</strong>, a <strong>Pass and Play</strong> switch appears.</p>
   <ul>
     <li><strong>On</strong> — each player's hand is hidden between turns. The device shows a handover page saying who's next, and the board stays covered until they tap to begin. This is what you want when the device is going round a table.</li>
-    <li><strong>Off</strong> — hands are never hidden.</li>
+    <li><strong>Off</strong> — hands are never hidden. Useful when everyone can see the screen anyway, or when you're playing solo against AI opponents.</li>
   </ul>
   <p>With only one human seat there's nobody to hide from, so the switch doesn't appear at all.</p>
 
@@ -177,7 +177,7 @@
     <li>Set the number of <strong>AI players</strong> and their level.</li>
     <li>At least <strong>two humans</strong> are always required, so the AI count can never exceed the total minus two.</li>
   </ul>
-  <p>AI seats are <strong>intermingled</strong> between the human seats rather than bunched at the end, and everyone can see which seats are AI from the start. The footer of the sheet spells out exactly what you're about to create.</p>
+  <p>AI seats are <strong>intermingled</strong> between the human seats rather than bunched at the end, and everyone can see which seats are AI from the start. The footer of the sheet spells out exactly what you're about to create — how many friends will be invited, how many humans that makes, and how many AI.</p>
 
   <h3>If somebody leaves</h3>
   <p><strong>Fill Vacated Seats with AI</strong> decides what happens when a player quits.</p>
@@ -185,8 +185,9 @@
     <li><strong>On</strong> — an AI of the level you choose takes over that seat and plays on, so the match continues for everyone else.</li>
     <li><strong>Off</strong> — the match ends for everyone, with the standings frozen where they stand.</li>
   </ul>
+  <p>The <strong>AI Stand-in Level</strong> setting is the same value as the level of any AI players you deal into the match. They're deliberately not separate settings.</p>
   <div class="note">
-    <p>An explicit forfeit always vacates a seat. At <strong>QuickFire</strong> lengths, simply <strong>running out of time does not</strong> — a short turn can expire because somebody glanced away, and that costs them the turn, never their seat. At longer limits a missed turn does count.</p>
+    <p>An explicit forfeit always vacates a seat. At <strong>QuickFire</strong> lengths, simply <strong>running out of time does not</strong> — a short turn can expire because somebody glanced away, and that costs them the turn, never their seat. At longer limits a missed turn does count, because there the app has been running in the background for hours.</p>
   </div>
 
   <h3>Sending the invitations</h3>
@@ -218,7 +219,7 @@
     <li>Tap <strong>See Invitations</strong>.</li>
     <li>Pick the invitation you want and accept it.</li>
   </ul>
-  <p><strong>There's nothing to configure.</strong> The host chose the pace, the number of players, and what happens if somebody leaves. You inherit all of it — and you can look those choices up in the <strong>Pause</strong> menu once the match opens.</p>
+  <p><strong>There's nothing to configure.</strong> The host chose the pace, the number of players, and what happens if somebody leaves. You inherit all of it — and you can look those choices up in the <strong>Pause</strong> menu once the match opens: how long each turn is, and whether a player who quits is replaced by an AI or ends the match. That's the one place a player who didn't create the match can see what they've agreed to.</p>
 
   <h3>Taking your turn</h3>
   <ul>
@@ -237,6 +238,9 @@
 
   <h3>If something looks stuck</h3>
   <p>A match waiting on someone who has gone looks exactly like one waiting on someone slow, so the app can't always tell. The <strong>Pause</strong> menu has a <strong>Resync</strong> button that re-checks with Game Center and, if a turn went astray, sends it again.</p>
+
+  <h3>Leaving a match</h3>
+  <p><strong>Forfeit Match</strong> in the <strong>Pause</strong> menu ends your participation, and the confirmation tells you what it will do to this particular match. It's final — you cannot rejoin a match after leaving it, and a player who leaves cannot win it.</p>
 
   <h2 id="voice">Voice control</h2>
 
@@ -259,7 +263,7 @@
   <p><strong>Voice control turns itself off every time you launch the app.</strong> That's deliberate — it's a per-session choice rather than a saved preference, so the microphone is never left listening in a game where nobody wanted it.</p>
 
   <h3>The wake word</h3>
-  <p>With <strong>Require Wake Word</strong> on, the app only acts on a phrase beginning with <span class="say">"Steal"</span> — say "Steal, pass" rather than just "pass". This stops ordinary table talk being taken as commands, and it's on by default. Confirmations and dialogs never need the wake word either way.</p>
+  <p>With <strong>Require Wake Word</strong> on, the app only acts on a phrase beginning with <span class="say">"Steal"</span> — say "Steal, pass" rather than just "pass". This stops ordinary table talk being taken as commands, and it's on by default. Confirmations and dialogs never need the wake word either way. Turn it off if you'd rather speak commands directly.</p>
 
   <h3>What you can say</h3>
   <p>A <strong>?</strong> button beside the microphone opens a cheat-sheet for whatever screen you're on. You can also just ask: <span class="say">"What can I say?"</span></p>
