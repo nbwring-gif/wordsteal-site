@@ -40,6 +40,8 @@
     margin: 2em 0;
   }
   .steal em { color: #C9A84C; font-style: normal; }
+  .steal .step { display: block; }
+  .steal .step + .step { margin-top: 0.5em; }
   .faq dt { color: #C9A84C; font-weight: 600; margin-top: 1.2em; }
   .faq dd { margin: 0.3em 0 0; }
   .app-icon {
@@ -62,7 +64,10 @@
 
   <p>WordSteal! is a word game for iPhone and iPad. You build words from the cards in your hand — but any word sitting on the table is fair game. Add a letter, rearrange the rest, and it's yours.</p>
 
-  <div class="steal"><em>CARE</em> + <em>G</em> &nbsp;→&nbsp; <em>GRACE</em></div>
+  <div class="steal">
+    <span class="step"><em>CARE</em> + <em>G</em> &nbsp;→&nbsp; <em>GRACE</em></span>
+    <span class="step"><em>GRACE</em> + <em>H</em> &nbsp;→&nbsp; <em>CHARGE</em></span>
+  </div>
 
   <p>Words don't stay safe. A word you built is temporary and expires before your next turn unless somebody steals it first — so the table keeps moving and nothing is ever really settled.</p>
 
