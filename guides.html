@@ -41,6 +41,8 @@
     margin: 1.6em 0;
   }
   .steal em { color: #C9A84C; font-style: normal; }
+  .steal .step { display: block; }
+  .steal .step + .step { margin-top: 0.5em; }
   .note { background: #151829; border-left: 3px solid #C9A84C; border-radius: 0 8px 8px 0; padding: 12px 18px; margin: 1.6em 0; }
   .say { font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace; color: #C9A84C; }
   .app-icon {
@@ -118,7 +120,10 @@
     <li>The letters can be <strong>rearranged</strong> freely.</li>
     <li>The new word must <strong>genuinely mean something different</strong>.</li>
   </ul>
-  <div class="steal"><em>CARE</em> + <em>G</em> → <em>GRACE</em> + <em>H</em> → <em>CHARGE</em></div>
+  <div class="steal">
+    <span class="step"><em>CARE</em> + <em>G</em> → <em>GRACE</em></span>
+    <span class="step"><em>GRACE</em> + <em>H</em> → <em>CHARGE</em></span>
+  </div>
   <p>But CARE to CARES is <strong>not</strong> a steal — adding a plural, changing a tense, or tacking on a prefix doesn't change what the word means, and the game will refuse it.</p>
 
   <h3>Words expire</h3>
